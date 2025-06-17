@@ -1,0 +1,17 @@
+name: DelayedDamage
+version: 1.0.0
+description: Ein Plugin das Schaden sammelt und nach 5 Minuten anwendet
+author: YourName
+main: de.delayeddamage.DelayedDamagePlugin
+api-version: 1.20
+
+commands:
+  delayeddamage:
+    description: Hauptbefehl für DelayedDamage
+    usage: /delayeddamage <trigger|reset|info> <spieler>
+    aliases: [dd, ddamage]
+
+permissions:
+  delayeddamage.admin:
+    description: Erlaubt die Verwendung aller DelayedDamage Befehle
+    default: op
